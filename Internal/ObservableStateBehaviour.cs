@@ -32,20 +32,25 @@ namespace ArborRx
             get
             {
                 return this.UpdateAsObservable()
-                .SkipUntil(stateBeginAsObservable)
-                .TakeUntil(stateEndAsObservable)
-                .Repeat();
+                    .SkipUntil(stateBeginAsObservable)
+                    .TakeUntil(stateEndAsObservable)
+                    .Repeat();
             }
+        }
+
+        public override void OnStateAwake()
+        {
+            stateAwakeStream.OnNext(Unit.Default);
         }
 
         public override void OnStateBegin()
         {
-            stateBeginStream.OnNext(default(Unit));
+            stateBeginStream.OnNext(Unit.Default);
         }
 
         public override void OnStateEnd()
         {
-            stateEndStream.OnNext(default(Unit));
+            stateEndStream.OnNext(Unit.Default);
         }
     }
 }
