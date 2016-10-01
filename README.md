@@ -3,9 +3,9 @@
 This is expansion plug in of [Arbor2](https://www.assetstore.unity3d.com/jp/#!/content/47081).
 I simplify cooperation with [UniRx](https://github.com/neuecc/UniRx).
 
-## getting started
+## Getting started
 
-- this repository clone or Download
+- This repository clone or Download
 - Import UniRx from AssetStore https://www.assetstore.unity3d.com/jp/#!/content/17276
 - Import Arbor2 from AssetStore https://www.assetstore.unity3d.com/jp/#!/content/47081
 
@@ -54,6 +54,6 @@ namespace ArborRx.Examples
 }
 ```
 
-Subscribe to a stream from an editor screen of Arbor when you use ObservaTransition and change.
+Subscribe to a stream from an editor screen of Arbor when you use ObserveTransition and change.
 
 ![arborrx_right](https://cloud.githubusercontent.com/assets/1734002/19012414/52fd653a-87f0-11e6-8b73-a0ce3206779c.gif)
