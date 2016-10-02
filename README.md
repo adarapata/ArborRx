@@ -5,7 +5,7 @@ I simplify cooperation with [UniRx](https://github.com/neuecc/UniRx).
 
 ## Getting started
 
-- This repository clone or Download
+- This repository clone or Download [UnityPackage](https://github.com/adarapata/ArborRx/releases)
 - Import UniRx from AssetStore https://www.assetstore.unity3d.com/jp/#!/content/17276
 - Import Arbor2 from AssetStore https://www.assetstore.unity3d.com/jp/#!/content/47081
 
