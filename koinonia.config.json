@@ -2,7 +2,7 @@
   "Title" : "ArborRx",
   "Author" : "adarapata",
   "License" : "MIT",
-  "RequiresFullReimport" : true,  
+  "RequiresFullReimport" : false,
   "Dependencies" : {
      "adarapata/ArborRx" : "master"
   }
